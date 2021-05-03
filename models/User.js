@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 //몽구스 가져옴
 
-const UserSchema = mongoose.Schema({
+const userSchema = mongoose.Schema({
 //몽구스 활용 스키마 생성
     name: {
         type: String,
